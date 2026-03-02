@@ -134,6 +134,8 @@ Live App: https://communityio.streamlit.app/
 
 Sadiya Sajid
 
+🔗 [LinkedIn](https://www.linkedin.com/in/sadiyasajid/)
+
 ---
 
 ## 🎯 Why This Project Matters
