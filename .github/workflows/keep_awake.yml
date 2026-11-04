@@ -1,0 +1,15 @@
+name: Keep Streamlit Awake
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Automatically runs every 6 hours
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Keep-alive commit
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit --allow-empty -m "Keep awake"
+        git push
